@@ -25379,7 +25379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be56c0c5-6761-4d8e-81bf-f6da0fb6b723")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 279.4 203.1999 0)
 			(effects
 				(font
@@ -25433,7 +25433,7 @@
 		(instances
 			(project "frame_dev_kit"
 				(path "/f8f60d15-ff2b-4c2a-8012-79eadce4ce58"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
