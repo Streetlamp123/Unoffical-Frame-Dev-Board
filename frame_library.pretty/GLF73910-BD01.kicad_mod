@@ -1,0 +1,236 @@
+(footprint "GLF73910-BD01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0.97 mm x 0.97 mm x 0.55 mm WLCSP")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "28d8cb86-1e32-4d9b-93f5-0aed5b56be11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "GLF73910-BD01"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "167833fe-09e1-464e-a3f9-0f8bf3c740b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "GLF73910-BD01"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ced7c6f1-0cab-44f2-8c91-1eee2c112643")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b5c0abd-5371-424a-ae84-a78c1034fa6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d219f81-e4a9-44b4-9498-07edcdc69853")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.25)
+		(end -1 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50e66c32-a12a-4574-a2c2-a5543e3287c6")
+	)
+	(fp_line
+		(start -0.9 -0.25)
+		(end -0.9 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1157359d-1128-45d6-8bf4-31195f4aab49")
+	)
+	(fp_arc
+		(start -1 -0.25)
+		(mid -0.95 -0.3)
+		(end -0.9 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b4d33b0-7dbc-4887-9f91-7e8476210b8d")
+	)
+	(fp_arc
+		(start -0.9 -0.25)
+		(mid -0.95 -0.2)
+		(end -1 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f9fa1d5-0eea-4a69-9bf4-de08517152bb")
+	)
+	(fp_line
+		(start -1.485 -1.485)
+		(end 1.485 -1.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f53e76b-6ecd-451e-ba45-6ef1c2dde117")
+	)
+	(fp_line
+		(start -1.485 1.485)
+		(end -1.485 -1.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56ef4dd2-69b5-4181-9ab8-a7abc9892208")
+	)
+	(fp_line
+		(start 1.485 -1.485)
+		(end 1.485 1.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae993133-f9d1-4f59-8fea-0c461b2019ae")
+	)
+	(fp_line
+		(start 1.485 1.485)
+		(end -1.485 1.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e773885-751d-44a0-9aac-d0329a681ac1")
+	)
+	(fp_line
+		(start -0.485 -0.485)
+		(end 0.485 -0.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f94e0c89-c908-43c6-90ec-2317ded58684")
+	)
+	(fp_line
+		(start -0.485 0.485)
+		(end -0.485 -0.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab0a39cc-99ed-43e1-84f8-7e350b8bf78e")
+	)
+	(fp_line
+		(start 0.485 -0.485)
+		(end 0.485 0.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6048fe0-bf0d-4d6d-b151-092f23607040")
+	)
+	(fp_line
+		(start 0.485 0.485)
+		(end -0.485 0.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f24ebaa-dedc-48c8-938a-a823b811013a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6069b0fe-79f2-46b8-8d32-b8e82d902133")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.25 -0.25 90)
+		(size 0.31 0.31)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86dc6f3c-e486-4991-b49e-240442f24655")
+	)
+	(pad "A2" smd circle
+		(at 0.25 -0.25 90)
+		(size 0.31 0.31)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "61763c05-4fdb-4de7-abfa-0a7b4ff18f70")
+	)
+	(pad "B1" smd circle
+		(at -0.25 0.25 90)
+		(size 0.31 0.31)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "228b2442-ec37-49ab-91f9-a0785db59939")
+	)
+	(pad "B2" smd circle
+		(at 0.25 0.25 90)
+		(size 0.31 0.31)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9efeee28-6761-43ec-93fb-3dbca33f1b50")
+	)
+	(model "GLF73910-BD01.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
